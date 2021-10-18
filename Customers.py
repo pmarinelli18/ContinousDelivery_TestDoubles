@@ -37,8 +37,8 @@ def insertOrder(cur, id, amountGoodsPurchased):
     cur.execute("INSERT INTO CORDER VALUES(?,?)", data)
 
 
-#conn = sqlite3.connect('customer.db')
-#cursor = conn.cursor()
+# conn = sqlite3.connect('customer.db')
+# cursor = conn.cursor()
 # createDatabase(cursor)
 # insertCustomer(cursor, "Peyton")
 # insertCustomer(cursor, "Collin")
